@@ -1,0 +1,59 @@
+body {
+  background: #fffcf6;
+  margin: 0;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+h1, h2, h3, h4 {
+  color: #0e1637;
+  font-family: fantasy;
+  
+  text-align: center;
+  width: 100%;
+}
+h1 {
+    font-size: 80px;
+    text-shadow: -6px -6px #6fc39e, -5px -5px #6fc39e,
+    -4px -4px #6fc39e, -3px -3px #6fc39e, -2px -2px #6fc39e,
+    -1px -1px #6fc39e, 1px 1px #6fc39e, 2px 2px #6fc39e,
+    3px 3px #6fc39e, 4px 4px #6fc39e, 5px 5px #6fc39e,
+    6px 6px #6fc39e, 7px 7px #6fc39e, 8px 8px #6fc39e,
+    9px 9px #6fc39e, 10px 10px #6fc39e, 11px 11px #6fc39e,
+    12px 12px #6fc39e, 13px 13px #6fc39e, 14px 14px #6fc39e,
+    15px 15px #6fc39e, 16px 16px #6fc39e, 17px 17px #6fc39e,
+    18px 18px #6fc39e, 19px 19px #6fc39e, 20px 20px #6fc39e,
+    21px 21px #6fc39e, 22px 22px #6fc39e, 23px 23px #6fc39e,
+    24px 24px #6fc39e, 25px 25px #6fc39e, 26px 26px #6fc39e,
+    27px 27px #6fc39e, 25px 25px #6fc39e, 28px 28px #6fc39e,
+    29px 29px #6fc39e, 30px 30px #6fc39e, 31px 31px #6fc39e,
+    32px 32px #6fc39e, 33px 33px #6fc39e, 34px 34px #6fc39e,
+    35px 35px #6fc39e, 36px 36px #6fc39e, 37px 37px #6fc39e,
+    38px 38px #6fc39e, 39px 39px #6fc39e, 40px 40px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    padding-top: 1%;
+}
+
+p, ul {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.green {
+    background-color: #e9f4ef;
+}
+
+.blue {
+    background-color: #e9ecf4;
+}
+
+div {
+    padding-bottom: 1%;
+}
+/* credit: adapted from code by miranda @ https://freefrontend.com/css-text-shadow-effects/ */
